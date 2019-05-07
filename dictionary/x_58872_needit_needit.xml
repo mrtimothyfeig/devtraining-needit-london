@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="2" type="collection">
+        <element label="Functional Test" max_length="500" name="functional_test" type="glide_date"/>
+        <element label="test" max_length="500" name="new_test_field" type="string"/>
+        <element choice="3" default="True" label="True?" max_length="40" name="true" type="boolean">
+            <choice/>
+        </element>
+    </element>
+</database>
